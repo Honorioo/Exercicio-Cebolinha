@@ -18,7 +18,7 @@ namespace Exercicio_Cebolinha
             Cebolinha = Convert.ToString(Console.ReadLine());
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"{Cebolinha.Replace("r","l").Replace("R","L")}");
+            Console.WriteLine($"{Cebolinha.Replace("rr","l").Replace("rR","l").Replace("RR","L").Replace("Rr","L").Replace("r","l").Replace("R","L")}");
             Console.ResetColor();
            
         
